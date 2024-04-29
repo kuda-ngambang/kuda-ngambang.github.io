@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rumus Persegi Panjang</title>
+</head>
+<body>
+    <a href="home.html">Kembali</a>
+    <p>masukkan panjang</p>
+    <input type="number" id="panjang">
+    <p>masukkan lebar</p>
+    <input type="number" id="lebar">
+    <button onclick="hitung()">Hitung</button>
+    <p id="hasil"></p>
+</body>
+<script>
+    function hitung(){
+        const panjang = document.getElementById('panjang').value
+        const lebar = document.getElementById('lebar').value
+        hasil = panjang * lebar
+        const tampilkanHasil = document.getElementById('hasil').innerHTML = hasil
+    }
+</script>
+</html>

@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(0, 30, 255)
+    ;
+}
+.nama-web{
+    color: white;
+    font-size: 40px;
+}
+.daftar-menu{
+    width: 250px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.daftar-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+main{
+    height: 100vh;
+}
+.konten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

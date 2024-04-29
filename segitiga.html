@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rumus Segitiga</title>
+</head>
+<body>
+    <a href="home.html">Kembali</a>
+    <p>masukkan alas</p>
+    <input type="number" id="alas">
+    <p>masukkan tinggi</p>
+    <input type="number" id="tinggi">
+    <button onclick="hitung()">Hitung</button>=
+    <p id="hasil"></p>
+</body>
+<script>
+    function hitung(){
+        const alas = document.getElementById('alas').value
+        const tinggi = document.getElementById('tinggi').value
+        hasilAwal = alas * tinggi
+        hasil = hasilAwal / 2
+        const tampilkanHasil = document.getElementById('hasil').innerHTML = hasil
+    }
+</script>
+</html>
